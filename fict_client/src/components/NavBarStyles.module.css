@@ -1,0 +1,49 @@
+.navBar{
+    background-color: rgb(70, 70, 70);
+    width: 100%;
+    padding-top: 1px;
+    padding-bottom: 5px;
+    display: flex;
+    flex-direction: row;
+}
+
+.navBarLeft{
+    width: 50%;
+    padding-top: 10px;
+    padding-left: 50px;
+    padding-bottom: 2px;
+}
+
+.navBarRight{
+    width: 50%;
+    display: flex;
+    flex-direction: row;
+    padding-right: 50px;
+    justify-content: right;
+}
+
+.navBarTab {
+    color: white;
+    padding-top: 5px;
+    padding-left: 30px;
+    padding-right: 30px;
+    font-size: 25px;
+    position: relative;
+    text-decoration: none;
+    overflow: hidden; /* Ensure the overflow is hidden */
+}
+  
+.navBarTab::after {
+    content: "";
+    position: absolute;
+    bottom: -2px;
+    left: 50%; /* Start from the middle */
+    transform: translateX(-50%); /* Adjust to center the line */
+    width: 0;
+    height: 3px;
+    background-color: #ffffff; /* Customize the color */
+    transition: width 0.3s ease-in-out;
+}
+  
+.navBarTab:hover::after {
+    width: 40%; /* Expand to the full width */}  
