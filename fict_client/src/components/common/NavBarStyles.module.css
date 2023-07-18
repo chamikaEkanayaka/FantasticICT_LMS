@@ -37,13 +37,31 @@
     content: "";
     position: absolute;
     bottom: -2px;
-    left: 50%; /* Start from the middle */
-    transform: translateX(-50%); /* Adjust to center the line */
+    left: 50%;
+    transform: translateX(-50%);
     width: 0;
     height: 3px;
-    background-color: #ffffff; /* Customize the color */
+    background-color: #ffffff;
     transition: width 0.3s ease-in-out;
 }
   
 .navBarTab:hover::after {
-    width: 40%; /* Expand to the full width */}  
+    width: 40%;
+    height: 4px;
+    border-radius: 10%;
+}
+
+.profileIcon{
+    width: 35px;
+    height: 30px;
+    font-size: 20px;
+    background-color: rgb(255, 255, 255);
+    border-radius: 100%;
+    padding-top: 4px;
+    text-align: center;
+    margin-top: 4px;
+}
+
+.profileIcon:hover{
+    color: #ffaa00;
+}
