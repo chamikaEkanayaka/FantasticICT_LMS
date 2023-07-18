@@ -1,14 +1,69 @@
+@keyframes gradient {
+    0% {
+        background-position: 0% 50%;
+    }
+    50% {
+        background-position: 100% 50%;
+    }
+    100% {
+        background-position: 0% 50%;
+    }
+}
+
 .HomeSec1Con{
-    background-color: rgb(70,70,70);
-    margin-top: 1px;
-    margin-left: 4px;
-    margin-right: 5px;
-    padding-top: 100px;
+    background: linear-gradient(-45deg, rgb(119, 119, 119), rgb(86, 86, 86), rgb(34, 34, 34));
+    background-size: 400% 400%;
+    animation: gradient 5s ease infinite;
+    padding-top: 70px;
+    padding-bottom: 50px;
     height: 400px;
-    font-size: 50px;
     text-align: center;
 }
 
-.mainTagLine{
-    margin-bottom: 30px;
+.HS1heading{
+    color: #ffffff;
+    font-weight: 100;
+    font-size: 50px;
+}
+
+.HS1body{
+    color: #c9c9c9;
+    font-size: 30px;
+    line-height: 50px;
+}
+
+.whiteWord{
+    color: #ffffff;
+}
+
+.joinLogoCon{
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    padding-top: 1%;
+    font-size: 50px;
+    color: #ffffff;
+}
+
+.joinLogo{
+    padding-left: 20px;
+}
+
+@keyframes colorChanging {
+    0% {
+        color: #ffae00;
+    }
+    50%{
+        color: #ff7b00;
+    }
+    75%{
+        color: #ff2a00;
+    }
+    100%{
+        color: #ffae00;
+    }
+}
+
+.joinLogo:hover{
+    animation: colorChanging 1s infinite;
 }
