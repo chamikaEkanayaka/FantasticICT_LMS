@@ -1,0 +1,50 @@
+.welcomeSecCon{
+    background-color: #f5f5f7;
+    height: 96vh;
+    font-weight: 100;
+    text-align: center;
+}
+
+.welcomeText{
+    padding-top: 22%;
+    font-size: 30px;
+}
+
+@keyframes openning {
+    0% {
+      transform: scale(0);
+      color: #ffffff;
+    }
+    100% {
+      transform: scale(1);
+      color: rgb(70, 70, 70);
+    }
+}
+
+@keyframes keeping {
+    0% {
+        color: #ffae00;
+        font-weight: 100;
+    }
+    25% {
+        color: rgb(70, 70, 70);
+        font-weight: 100;
+    }
+    50%{
+        color: #ffe100;
+        font-weight: 200;
+    }
+    75%{
+        color: #ff5900;
+        font-weight: 200;
+    }
+    100%{
+        color: #ffae00;
+        font-weight: 100;
+    }
+}
+  
+.fIctText {
+    font-size: 100px;
+    animation: openning 1s forwards, keeping 3s infinite;
+}
