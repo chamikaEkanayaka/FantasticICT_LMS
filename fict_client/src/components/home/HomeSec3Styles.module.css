@@ -1,0 +1,21 @@
+.HomeSec3Con{
+    background-color: #f5f5f7;
+    color: rgb(70, 70, 70);
+    padding-top: 70px;
+    padding-bottom: 50px;
+    height: 400px;
+    text-align: center;
+}
+
+.slideCon{
+    width: 100%;
+    display: flex;
+    flex-direction: row;
+}
+
+.slide{
+    margin: 10px;
+    width: 20%;
+    height: 100px;
+    background-color: #000000;
+}

@@ -16,7 +16,7 @@
     animation: gradient 5s ease infinite;
     padding-top: 70px;
     padding-bottom: 50px;
-    height: 400px;
+    /* height: 400px; */
     text-align: center;
 }
 
@@ -41,7 +41,7 @@
     flex-direction: row;
     justify-content: center;
     padding-top: 1%;
-    font-size: 50px;
+    font-size: 30px;
     color: #ffffff;
 }
 
