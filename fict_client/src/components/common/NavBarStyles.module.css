@@ -63,5 +63,7 @@
 }
 
 .profileIcon:hover{
-    color: #ffaa00;
+    color: #ffffff;
+    background-color: #ffaa00;
+    transition: 500ms;
 }

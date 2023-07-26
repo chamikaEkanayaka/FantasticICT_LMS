@@ -1,4 +1,12 @@
 .footerBarCon{
-    background-color: rgb(34, 34, 34);
+    background-color: rgb(70, 70, 70);
     height: 50vh;
+}
+
+.fBarBottom{
+    text-align: center;
+}
+
+.fBarBottom img{
+    width: 500px;
 }
