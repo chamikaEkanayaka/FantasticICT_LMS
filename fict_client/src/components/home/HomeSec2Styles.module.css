@@ -51,14 +51,17 @@
 }
 
 @keyframes colorChanging {
-    0% {
+    0%{
         color: #ffae00;
     }
+    25%{
+        color: #ff8c00;
+    }
     50%{
-        color: #ff7b00;
+        color: #ff4d00;
     }
     75%{
-        color: #ff2a00;
+        color: #ff0000;
     }
     100%{
         color: #ffae00;

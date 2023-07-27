@@ -6,22 +6,22 @@ function GceAlStudy() {
 
   function hideContent() {
     if(display===false){
-        document.getElementById('main').style.display='none';
-        document.getElementById('studySecTitle').style.backgroundColor='#ffffff';
-        document.getElementById('studySecTitle').style.color='#000000';
+        document.getElementById('GceAlStudyContent').style.display='none';
+        document.getElementById('GceAlStudyTitle').style.backgroundColor='#ffffff';
+        document.getElementById('GceAlStudyTitle').style.color='#000000';
         setDisplay(true);
     }else{
-        document.getElementById('main').style.display='block';
-        document.getElementById('studySecTitle').style.backgroundColor='rgb(70,70,70)';
-        document.getElementById('studySecTitle').style.color='#ffffff';
+        document.getElementById('GceAlStudyContent').style.display='block';
+        document.getElementById('GceAlStudyTitle').style.backgroundColor='rgb(70,70,70)';
+        document.getElementById('GceAlStudyTitle').style.color='#ffffff';
         setDisplay(false);
     }
   }
 
   return (
     <div className={styles.studySec}>
-        <div onClick={hideContent} className={styles.studySecTitle} id="studySecTitle">GCE Advanced Level</div>
-        <div className={styles.studySecContent} id="main">
+        <div onClick={hideContent} className={styles.GceAlStudyTitle} id="GceAlStudyTitle">GCE Advanced Level</div>
+        <div className={styles.GceAlStudyContent} id="GceAlStudyContent">
             This is main div
         </div>
     </div>

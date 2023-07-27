@@ -1,14 +1,14 @@
 import React from "react";
 import NavBar from "../components/common/NavBar";
-import GceAlStudy from "../components/study/GceAlStudy";
-import GceOlStudy from "../components/study/GceOlStudy";
+import StudyMenu from "../components/study/StudyMenu";
+import FooterBar from "../components/common/FooterBar";
 
 function Study(){
     return(
         <>
             <NavBar/>
-            <GceAlStudy/>
-            <GceOlStudy/>
+            <StudyMenu/>
+            <FooterBar/>
         </>
     )
 }

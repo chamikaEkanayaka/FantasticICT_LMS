@@ -22,17 +22,17 @@
 }
 
 @keyframes keeping {
-    0% {
+    0%{
         color: #ffae00;
     }
-    25% {
-        color: rgb(70, 70, 70);
+    25%{
+        color: #ff8c00;
     }
     50%{
-        color: #ffe100;
+        color: #ff4d00;
     }
     75%{
-        color: #ff5900;
+        color: #ff0000;
     }
     100%{
         color: #ffae00;
@@ -41,5 +41,5 @@
   
 .fIctText {
     font-size: 100px;
-    animation: openning 1s forwards, keeping 3s infinite;
+    animation: openning 1s forwards, keeping 2s infinite;
 }

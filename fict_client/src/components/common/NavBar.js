@@ -9,10 +9,10 @@ function NavBar() {
         <img src={fIctIcon} alt="fantasticIctLogo" width="120px"/>
       </div>
       <div className={styles.navBarRight}>
-        <div className={styles.navBarTab}>Home</div>
-        <div className={styles.navBarTab}>Study</div>
-        <div className={styles.navBarTab}>About</div>
-        <div className={styles.navBarTab}>Contact</div>
+        <a className={styles.navBarTab} href={'/home'}>Home</a>
+        <a className={styles.navBarTab} href={'/study'}>Study</a>
+        <a className={styles.navBarTab} href={'/about'}>About</a>
+        <a className={styles.navBarTab} href={'/contact'}>Contact</a>
         <div className={styles.profileIcon}>C</div>
       </div>
     </div>

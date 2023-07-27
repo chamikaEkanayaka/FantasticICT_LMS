@@ -1,0 +1,114 @@
+.studyMenuCon{
+    background-color: rgb(34, 34, 34);
+    height: 100vh;
+}
+
+.studyMenuTitle{
+    color: #ffffff;
+    font-size: 30px;
+    text-align: center;
+    padding-top: 90px;
+    padding-bottom: 50px;
+}
+
+@keyframes openning {
+    0% {
+      transform: scale(0);
+    }
+    100% {
+      transform: scale(1);
+    }
+}
+
+.studyMenuCardCon {
+    padding-top: 1%;
+    padding-left: 100px;
+    padding-right: 100px;
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    justify-content: center;
+    animation: openning 1s forwards;
+}
+
+.studyMenuCard {
+    margin: 10px;
+    width: 40%;
+    height: 300px;
+    border-radius: 10px;
+    background-color: #ffffff;
+    padding: 10px;
+    font-size: 70px;
+    font-weight: 100;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+@keyframes colorChanging {
+    0%{
+        color: #ffae00;
+    }
+    25%{
+        color: #ff8c00;
+    }
+    50%{
+        color: #ff4d00;
+    }
+    75%{
+        color: #ff0000;
+    }
+    100%{
+        color: #ffae00;
+    }
+}
+
+.studyMenuCard:hover {
+    font-size: 100px;
+    transition: 100ms;
+    animation: colorChanging 2s infinite;
+    cursor: pointer;
+}
+
+#alCover{
+    background-image: url("../../Images/StudyCoverImage/alCoverImg.jpg");
+    background-position: center;
+    background-size: 120%;
+}
+
+#alCover:hover{
+    background-size: 100%;
+    transition: 500ms;
+}
+
+#olCover{
+    background-image: url("../../Images/StudyCoverImage/olCoverImg.jpg");
+    background-position: center;
+    background-size: 120%;
+}
+
+#olCover:hover{
+    background-size: 100%;
+    transition: 500ms;
+}
+
+#pythonCover{
+    background-image: url("../../Images/StudyCoverImage/pythonCoverImg.jpg");
+    background-size: 120%;
+}
+
+#pythonCover:hover{
+    background-size: 100%;
+    transition: 500ms;
+}
+
+#htmlCover{
+    background-image: url("../../Images/StudyCoverImage/htmlCoverImg.jpg");
+    background-position: center;
+    background-size: 140%;
+}
+
+#htmlCover:hover{
+    background-size: 120%;
+    transition: 500ms;
+}
