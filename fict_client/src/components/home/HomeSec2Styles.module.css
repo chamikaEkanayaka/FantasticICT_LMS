@@ -91,5 +91,6 @@
 
 .logSignButton:hover{
     color: #ffae00;
+    cursor: pointer;
     border: solid 1px #ffae00;
 }

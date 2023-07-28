@@ -32,6 +32,8 @@
 }
 
 .studyMenuCard {
+    color: rgb(34, 34, 34);
+    text-decoration: none;
     margin: 10px;
     width: 40%;
     height: 300px;
@@ -71,9 +73,9 @@
 }
 
 #alCover{
-    background-image: url("../../Images/StudyCoverImage/alCoverImg.jpg");
+    background-image: url("../../Images/StudyCoverImage/alStudyCover.png");
     background-position: center;
-    background-size: 120%;
+    background-size: 110%;
 }
 
 #alCover:hover{
@@ -82,9 +84,9 @@
 }
 
 #olCover{
-    background-image: url("../../Images/StudyCoverImage/olCoverImg.jpg");
+    background-image: url("../../Images/StudyCoverImage/olStudyCover.png");
     background-position: center;
-    background-size: 120%;
+    background-size: 110%;
 }
 
 #olCover:hover{
@@ -93,22 +95,23 @@
 }
 
 #pythonCover{
-    background-image: url("../../Images/StudyCoverImage/pythonCoverImg.jpg");
+    background-image: url("../../Images/StudyCoverImage/pythonStudyCover.png");
+    background-position: center;
     background-size: 120%;
 }
 
 #pythonCover:hover{
-    background-size: 100%;
+    background-size: 115%;
     transition: 500ms;
 }
 
 #htmlCover{
-    background-image: url("../../Images/StudyCoverImage/htmlCoverImg.jpg");
+    background-image: url("../../Images/StudyCoverImage/htmlStudyCover.png");
     background-position: center;
-    background-size: 140%;
+    background-size: 120%;
 }
 
 #htmlCover:hover{
-    background-size: 120%;
+    background-size: 115%;
     transition: 500ms;
 }
