@@ -2,10 +2,11 @@
     overflow: scroll;
     height: 100vh;
     background-color: rgb(34, 34, 34);
-    width: 16%;
+    width: 17%;
     color: #ffffff;
     padding: 10px;
     padding-top: 20px;
+    font-size: 20px;
 }
 
 .lessonTitleCon{
@@ -15,8 +16,14 @@
     padding-left: 5px;
 }
 
+.lessonTitleCon:hover{
+    background-color: rgb(180, 180, 180);
+    color: rgb(34, 34, 34);
+}
+
 .lessonSubTitleCon{
     padding-left: 25px;
+    display: none;
 }
 
 .lessonSubTitle{
@@ -24,13 +31,11 @@
     padding-top: 5px;
     padding-bottom: 5px;
     padding-left: 5px;
+    border-color: #ffffff;
+    border-left: solid 1px;
 }
 
 .lessonSubTitle:hover{
-    background-color: rgb(180, 180, 180);
-    color: rgb(34, 34, 34);}
-
-.lessonTitleCon:hover{
     background-color: rgb(180, 180, 180);
     color: rgb(34, 34, 34);
 }
