@@ -1,0 +1,36 @@
+.MainConMenuCon{
+    overflow: scroll;
+    height: 100vh;
+    background-color: rgb(34, 34, 34);
+    width: 16%;
+    color: #ffffff;
+    padding: 10px;
+    padding-top: 20px;
+}
+
+.lessonTitleCon{
+    cursor: pointer;
+    padding-top: 5px;
+    padding-bottom: 5px;
+    padding-left: 5px;
+}
+
+.lessonSubTitleCon{
+    padding-left: 25px;
+}
+
+.lessonSubTitle{
+    cursor: pointer;
+    padding-top: 5px;
+    padding-bottom: 5px;
+    padding-left: 5px;
+}
+
+.lessonSubTitle:hover{
+    background-color: rgb(180, 180, 180);
+    color: rgb(34, 34, 34);}
+
+.lessonTitleCon:hover{
+    background-color: rgb(180, 180, 180);
+    color: rgb(34, 34, 34);
+}

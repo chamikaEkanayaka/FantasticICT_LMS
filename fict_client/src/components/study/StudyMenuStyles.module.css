@@ -73,45 +73,37 @@
 }
 
 #alCover{
-    background-image: url("../../Images/StudyCoverImage/alStudyCover.png");
     background-position: center;
     background-size: 110%;
 }
 
 #alCover:hover{
-    background-size: 100%;
     transition: 500ms;
 }
 
 #olCover{
-    background-image: url("../../Images/StudyCoverImage/olStudyCover.png");
     background-position: center;
     background-size: 110%;
 }
 
 #olCover:hover{
-    background-size: 100%;
     transition: 500ms;
 }
 
 #pythonCover{
-    background-image: url("../../Images/StudyCoverImage/pythonStudyCover.png");
     background-position: center;
     background-size: 120%;
 }
 
 #pythonCover:hover{
-    background-size: 115%;
     transition: 500ms;
 }
 
 #htmlCover{
-    background-image: url("../../Images/StudyCoverImage/htmlStudyCover.png");
     background-position: center;
     background-size: 120%;
 }
 
 #htmlCover:hover{
-    background-size: 115%;
     transition: 500ms;
 }
