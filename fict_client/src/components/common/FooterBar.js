@@ -6,7 +6,6 @@ function FooterBar(){
     return(
         <div className={styles.footerBarCon}>
             <div className={styles.fBarTop}>
-                Top
             </div>
             <div className={styles.fBarBottom}>
                 <img src={fIctIcon} alt="fantasticictlogo"/>

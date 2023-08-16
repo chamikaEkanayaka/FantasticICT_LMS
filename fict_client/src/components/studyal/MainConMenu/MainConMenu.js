@@ -1,27 +1,36 @@
 import React from "react";
-import styles from "../studyal/MainConMenuStyles.module.css";
+import styles from "../MainConMenu/MainConMenuStyles.module.css";
 import { useState } from "react";
 
 function MainConMenu(){
 
-    const [isDivVisible, setIsDivVisible] = useState(false);
+    const [isSec1Visible, setIsSec1Visible] = useState(false);
+    const [isSec2Visible, setIsSec2Visible] = useState(false);
 
-    function toggleDivVisibility(eleId) {
-        const element = document.getElementById(eleId);
-
-        if (isDivVisible) {
-            element.style.display = 'none';
+    function toggleSec1Visibility() {
+        if (isSec1Visible) {
+            document.getElementById('sec1').style.display = 'none';
         } else {
-            element.style.display = 'block';
+            document.getElementById('sec1').style.display = 'block';
         }
 
-        setIsDivVisible(!isDivVisible);
+        setIsSec1Visible(!isSec1Visible);
     }
-    
+
+    function toggleSec2Visibility() {
+        if (isSec2Visible) {
+            document.getElementById('sec2').style.display = 'none';
+        } else {
+            document.getElementById('sec2').style.display = 'block';
+        }
+
+        setIsSec2Visible(!isSec2Visible);
+    }
+
 
     return(
         <div className={styles.MainConMenuCon}>
-            <div className={styles.lessonTitleCon} onClick={() => toggleDivVisibility('sec1')}>
+            <div className={styles.lessonTitleCon} onClick={() => toggleSec1Visibility()}>
                 මූලික සංකල්ප
             </div>
             <div className={styles.lessonSubTitleCon} id='sec1'>
@@ -75,7 +84,7 @@ function MainConMenu(){
                 </div>
                 <br/>
             </div>
-            <div className={styles.lessonTitleCon} onClick={() => toggleDivVisibility('sec2')}>
+            <div className={styles.lessonTitleCon} onClick={() => toggleSec2Visibility()}>
                 පරිගණකයේ ඉතිහාසය
             </div>
             <div className={styles.lessonSubTitleCon} id='sec2'>
@@ -128,120 +137,6 @@ function MainConMenu(){
                     - සෙවුම් ඉශ්ට චක්‍රය
                 </div>
                 <br/>
-            </div>
-            <div className={styles.lessonTitleCon}>
-                සංඛ්‍යා පද්ධති
-            </div>
-            <div className={styles.lessonTitleCon}>
-                තාර්කික ද්වාර
-            </div>
-            <div className={styles.lessonTitleCon}>
-                මෙහෙයුම් පද්ධති
-            </div>
-            <div className={styles.lessonTitleCon}>
-                මූලික සංකල්ප
-            </div>
-            <div className={styles.lessonTitleCon}>
-                පරිගණකයේ ඉතිහාසය
-            </div>
-            <div className={styles.lessonTitleCon}>
-                සංඛ්‍යා පද්ධති
-            </div>
-            <div className={styles.lessonTitleCon}>
-                තාර්කික ද්වාර
-            </div>
-            <div className={styles.lessonTitleCon}>
-                මෙහෙයුම් පද්ධති
-            </div>
-            <div className={styles.lessonTitleCon}>
-                මූලික සංකල්ප
-            </div>
-            <div className={styles.lessonTitleCon}>
-                පරිගණකයේ ඉතිහාසය
-            </div>
-            <div className={styles.lessonTitleCon}>
-                සංඛ්‍යා පද්ධති
-            </div>
-            <div className={styles.lessonTitleCon}>
-                තාර්කික ද්වාර
-            </div>
-            <div className={styles.lessonTitleCon}>
-                මෙහෙයුම් පද්ධති
-            </div>
-            <div className={styles.lessonTitleCon}>
-                මූලික සංකල්ප
-            </div>
-            <div className={styles.lessonTitleCon}>
-                පරිගණකයේ ඉතිහාසය
-            </div>
-            <div className={styles.lessonTitleCon}>
-                සංඛ්‍යා පද්ධති
-            </div>
-            <div className={styles.lessonTitleCon}>
-                තාර්කික ද්වාර
-            </div>
-            <div className={styles.lessonTitleCon}>
-                මෙහෙයුම් පද්ධති
-            </div>
-            <div className={styles.lessonTitleCon}>
-                මූලික සංකල්ප
-            </div>
-            <div className={styles.lessonTitleCon}>
-                පරිගණකයේ ඉතිහාසය
-            </div>
-            <div className={styles.lessonTitleCon}>
-                සංඛ්‍යා පද්ධති
-            </div>
-            <div className={styles.lessonTitleCon}>
-                තාර්කික ද්වාර
-            </div>
-            <div className={styles.lessonTitleCon}>
-                මෙහෙයුම් පද්ධති
-            </div>
-            <div className={styles.lessonTitleCon}>
-                මූලික සංකල්ප
-            </div>
-            <div className={styles.lessonTitleCon}>
-                පරිගණකයේ ඉතිහාසය
-            </div>
-            <div className={styles.lessonTitleCon}>
-                සංඛ්‍යා පද්ධති
-            </div>
-            <div className={styles.lessonTitleCon}>
-                තාර්කික ද්වාර
-            </div>
-            <div className={styles.lessonTitleCon}>
-                මෙහෙයුම් පද්ධති
-            </div>
-            <div className={styles.lessonTitleCon}>
-                මූලික සංකල්ප
-            </div>
-            <div className={styles.lessonTitleCon}>
-                පරිගණකයේ ඉතිහාසය
-            </div>
-            <div className={styles.lessonTitleCon}>
-                සංඛ්‍යා පද්ධති
-            </div>
-            <div className={styles.lessonTitleCon}>
-                තාර්කික ද්වාර
-            </div>
-            <div className={styles.lessonTitleCon}>
-                මෙහෙයුම් පද්ධති
-            </div>
-            <div className={styles.lessonTitleCon}>
-                මූලික සංකල්ප
-            </div>
-            <div className={styles.lessonTitleCon}>
-                පරිගණකයේ ඉතිහාසය
-            </div>
-            <div className={styles.lessonTitleCon}>
-                සංඛ්‍යා පද්ධති
-            </div>
-            <div className={styles.lessonTitleCon}>
-                තාර්කික ද්වාර
-            </div>
-            <div className={styles.lessonTitleCon}>
-                මෙහෙයුම් පද්ධති
             </div>
         </div>
     )
